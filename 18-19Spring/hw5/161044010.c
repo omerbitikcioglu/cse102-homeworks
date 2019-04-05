@@ -238,9 +238,9 @@ void remove_newline(char *line)
 int main(void)
 {
 	char *dict[DICT_SIZE];
-    int coord[DICT_SIZE][4];    
-    char line[LINE_LEN];
-    char map[DICT_SIZE][DICT_SIZE];
+	int coord[DICT_SIZE][4];    
+	char line[LINE_LEN];
+	char map[DICT_SIZE][DICT_SIZE];
 	FILE *fp = fopen("word_hunter.dat", "r");
 	int i, j, n, words_found=0, exit=0, guess_y, guess_x, found=0, flag=0;
 
