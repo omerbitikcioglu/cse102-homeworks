@@ -6,6 +6,7 @@
 #define WORD_LEN 10
 #define LINE_LEN 18
 
+/*Directions*/
 enum{E, SE, S, SW, W, NW, N, NE};
 
 void make_upper(char map[DICT_SIZE][DICT_SIZE], int y, int x, int dir, int n)
